@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(123, 226, 240);
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 120vh;
+}
+
+.sub1{
+    text-align: center;
+    /* border-bottom: 3px solid black; */
+}
+
+.pic{
+    width: 250px;
+    height: 160px;
+    border-radius:50% ;
+    background: fixed;
+    background-position: center;
+    background-color: white;
+}
+
+.main{
+    background-color: rgb(20, 20, 39);
+    color: rgba(150, 132, 132, 0.966);
+    padding: 15px 20px 0px 20px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    line-height: 1.5em;
+   
+}
+
+.main h4{
+    color: yellow;
+    font-weight: bold;
+}
+
+.main h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.main h1{
+    color: white;
+    font-weight: bold;
+    padding: 13px 0px;
+}
+
+.main li{
+    align-items: center;
+}
+
+.article{
+    background-color: rgba(194, 186, 186, 0.815);
+    padding: 15px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.article h1{
+    color: black;
+}
+
+.article .h4{
+    color: rgb(80, 80, 131);
+}
+
+.article h4{
+    color: rgb(39, 39, 219);
+}
+
+
+.article .para1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+}
+
+.article .sub2{
+    line-height: 1.4em;
+}
+
+.article h1{
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: blue;
+    padding: 0px 5px;
+}
